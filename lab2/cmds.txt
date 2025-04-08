@@ -1,0 +1,6 @@
+find . -type f -name "a*
+find . -type f -name "*.txt"
+find . -type f -name "?????"
+ls | grep "....."
+find . -type f -name "[be]*"
+
