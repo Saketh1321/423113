@@ -1,0 +1,3 @@
+sudo apt update
+sudo dpkg -i ~/Downloads/htop_3.3.0/4bui;d_amd64.deb
+

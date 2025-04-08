@@ -1,0 +1,3 @@
+gdb a.out
+gcc -g prog.c
+quit

@@ -1,0 +1,4 @@
+grep -wi "error" log.txt
+grep -ci "success" data.txt
+grep -n "^[0-9]"records.txt
+grep -vi "failed" file.txt

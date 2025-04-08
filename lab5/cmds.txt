@@ -1,0 +1,5 @@
+awk '/ERROR/{printf "%s %s ",$1,$2;for(i=5;i<NF;i++)printf "%s " ,$i;print ""}' logfile.txt
+sed -Ei 's/\b(\w+)\b\1\b/1/g' file.txt
+sed -Ei 's/^([^@]+)(.*)$/xxxxxxxxxx\2/" contacts.txt
+rev story.txt
+

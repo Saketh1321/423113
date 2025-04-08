@@ -1,0 +1,5 @@
+tar -cfz compp.tar lab2.odt
+tar -cvf compress.tar lab2.odt
+tar cvjf ex1.tar lab7
+tar xvf compp.tarls|cpio -o -H tar >cpio%.tar
+

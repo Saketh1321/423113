@@ -1,0 +1,47 @@
+1. Write a Shell program to check the given number is even or odd
+read -p "Enter the number : " num
+if ((num % 2 == 0))
+then
+echo "$num is even"
+else
+echo "$num is odd"
+fi
+
+2. Write a Shell program to check the given year is leap year or not
+read -p "Enter year : " year
+if ((year %4==0 && year%100!=0 || year % 400==0))
+then
+echo "$year is a leap year"
+else
+echo "$year is not a leap year"
+fi
+
+3. Write a Shell program to find the factorial of a number
+read -p "Enter the number : " n
+ans=1
+t=$n
+while ((t>0))
+do
+ans=$((ans*t))
+t=$((t-1))
+done
+echo "$ans is factorial of $n"
+
+
+4. Write a Shell program to swap the two integers
+read -p "Enter number 1: " num1
+read -p "Enter number 2: " num2
+temp=$num1
+num1=$num2
+num2=$temp
+echo "num1 = $num1 , num2 = $num2"
+
+5. Write a shell script to compute GCD & LCM of two numbers.
+
+6. Shell Program to Print Numbers from 1 to 10 using While Loop
+n=1
+while ((n<11))
+do
+echo "$n"
+n=$((n+1))
+done
